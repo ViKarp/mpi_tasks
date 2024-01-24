@@ -11,12 +11,12 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:wq
+|2,0,1706102626,,"wq"
 :q
 |2,0,1706098605,,"q"
 :%y+
 |2,0,1706098447,,"%y+"
-:wq
-|2,0,1706098325,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -27,252 +27,285 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
+"0	LINE	0
 	0.0135064,
 	0.0098857,
 	0.0350882,
 	0.411396,
 	2.32467,
-|3,1,0,1,5,0,1706098518,"0.0135064,","0.0098857,","0.0350882,","0.411396,","2.32467,"
-"-	CHAR	0
-	<
-|3,0,36,0,1,0,1706098308,"<"
+|3,0,0,1,5,0,1706098518,"0.0135064,","0.0098857,","0.0350882,","0.411396,","2.32467,"
+""-	CHAR	0
+	= create_vector(vector_size, 0),
+|3,1,36,0,1,0,1706102387,"= create_vector(vector_size, 0),"
 
 # File marks:
-'0  3  5  ~/task1/slurm-49315.out
-|4,48,3,5,1706098605,"~/task1/slurm-49315.out"
-'1  5  18  ~/task1/task1.cpp
-|4,49,5,18,1706098325,"~/task1/task1.cpp"
-'2  4  16  ~/task1/task1.cpp
-|4,50,4,16,1706098283,"~/task1/task1.cpp"
-'3  4  16  ~/task1/task1.cpp
-|4,51,4,16,1706098283,"~/task1/task1.cpp"
-'4  54  3  ~/task1/task1.cpp
-|4,52,54,3,1706097865,"~/task1/task1.cpp"
-'5  52  3  ~/task1/task1.cpp
-|4,53,52,3,1706097865,"~/task1/task1.cpp"
-'6  53  3  ~/task1/task1.cpp
-|4,54,53,3,1706097865,"~/task1/task1.cpp"
-'7  51  3  ~/task1/task1.cpp
-|4,55,51,3,1706097865,"~/task1/task1.cpp"
-'8  7  18  ~/task1/run.sh
-|4,56,7,18,1706097258,"~/task1/run.sh"
-'9  4  9  ~/task1/job.sh
-|4,57,4,9,1706097056,"~/task1/job.sh"
+'0  43  57  ~/task2/task2.cpp
+|4,48,43,57,1706102626,"~/task2/task2.cpp"
+'1  1  0  ~/task2/run.sh
+|4,49,1,0,1706100844,"~/task2/run.sh"
+'2  1  0  ~/task2/job.sh
+|4,50,1,0,1706100837,"~/task2/job.sh"
+'3  4  12  ~/task2/compile.sh
+|4,51,4,12,1706100827,"~/task2/compile.sh"
+'4  48  23  ~/task1/task1.cpp
+|4,52,48,23,1706100603,"~/task1/task1.cpp"
+'5  3  5  ~/task1/slurm-49315.out
+|4,53,3,5,1706098605,"~/task1/slurm-49315.out"
+'6  5  18  ~/task1/task1.cpp
+|4,54,5,18,1706098325,"~/task1/task1.cpp"
+'7  5  18  ~/task1/task1.cpp
+|4,55,5,18,1706098325,"~/task1/task1.cpp"
+'8  4  16  ~/task1/task1.cpp
+|4,56,4,16,1706098283,"~/task1/task1.cpp"
+'9  4  16  ~/task1/task1.cpp
+|4,57,4,16,1706098283,"~/task1/task1.cpp"
 
 # Jumplist (newest first):
+-'  43  57  ~/task2/task2.cpp
+|4,39,43,57,1706102626,"~/task2/task2.cpp"
+-'  1  0  ~/task2/task2.cpp
+|4,39,1,0,1706100878,"~/task2/task2.cpp"
+-'  1  0  ~/task2/run.sh
+|4,39,1,0,1706100844,"~/task2/run.sh"
+-'  1  0  ~/task2/run.sh
+|4,39,1,0,1706100844,"~/task2/run.sh"
+-'  1  0  ~/task2/job.sh
+|4,39,1,0,1706100837,"~/task2/job.sh"
+-'  1  0  ~/task2/job.sh
+|4,39,1,0,1706100837,"~/task2/job.sh"
+-'  1  0  ~/task2/job.sh
+|4,39,1,0,1706100837,"~/task2/job.sh"
+-'  1  0  ~/task2/job.sh
+|4,39,1,0,1706100837,"~/task2/job.sh"
+-'  4  12  ~/task2/compile.sh
+|4,39,4,12,1706100827,"~/task2/compile.sh"
+-'  4  12  ~/task2/compile.sh
+|4,39,4,12,1706100827,"~/task2/compile.sh"
+-'  4  12  ~/task2/compile.sh
+|4,39,4,12,1706100827,"~/task2/compile.sh"
+-'  4  12  ~/task2/compile.sh
+|4,39,4,12,1706100827,"~/task2/compile.sh"
+-'  4  12  ~/task2/compile.sh
+|4,39,4,12,1706100827,"~/task2/compile.sh"
+-'  4  12  ~/task2/compile.sh
+|4,39,4,12,1706100827,"~/task2/compile.sh"
+-'  4  12  ~/task2/compile.sh
+|4,39,4,12,1706100827,"~/task2/compile.sh"
+-'  4  12  ~/task2/compile.sh
+|4,39,4,12,1706100827,"~/task2/compile.sh"
+-'  1  0  ~/task2/compile.sh
+|4,39,1,0,1706100814,"~/task2/compile.sh"
+-'  1  0  ~/task2/compile.sh
+|4,39,1,0,1706100814,"~/task2/compile.sh"
+-'  1  0  ~/task2/compile.sh
+|4,39,1,0,1706100814,"~/task2/compile.sh"
+-'  1  0  ~/task2/compile.sh
+|4,39,1,0,1706100814,"~/task2/compile.sh"
+-'  1  0  ~/task2/compile.sh
+|4,39,1,0,1706100814,"~/task2/compile.sh"
+-'  1  0  ~/task2/compile.sh
+|4,39,1,0,1706100814,"~/task2/compile.sh"
+-'  1  0  ~/task2/compile.sh
+|4,39,1,0,1706100814,"~/task2/compile.sh"
+-'  1  0  ~/task2/compile.sh
+|4,39,1,0,1706100814,"~/task2/compile.sh"
+-'  48  23  ~/task1/task1.cpp
+|4,39,48,23,1706100603,"~/task1/task1.cpp"
+-'  48  23  ~/task1/task1.cpp
+|4,39,48,23,1706100603,"~/task1/task1.cpp"
+-'  48  23  ~/task1/task1.cpp
+|4,39,48,23,1706100603,"~/task1/task1.cpp"
+-'  48  23  ~/task1/task1.cpp
+|4,39,48,23,1706100603,"~/task1/task1.cpp"
+-'  48  23  ~/task1/task1.cpp
+|4,39,48,23,1706100603,"~/task1/task1.cpp"
+-'  48  23  ~/task1/task1.cpp
+|4,39,48,23,1706100603,"~/task1/task1.cpp"
+-'  48  23  ~/task1/task1.cpp
+|4,39,48,23,1706100603,"~/task1/task1.cpp"
+-'  48  23  ~/task1/task1.cpp
+|4,39,48,23,1706100603,"~/task1/task1.cpp"
+-'  48  23  ~/task1/task1.cpp
+|4,39,48,23,1706100603,"~/task1/task1.cpp"
+-'  48  23  ~/task1/task1.cpp
+|4,39,48,23,1706100603,"~/task1/task1.cpp"
+-'  48  23  ~/task1/task1.cpp
+|4,39,48,23,1706100603,"~/task1/task1.cpp"
+-'  48  23  ~/task1/task1.cpp
+|4,39,48,23,1706100603,"~/task1/task1.cpp"
+-'  48  23  ~/task1/task1.cpp
+|4,39,48,23,1706100603,"~/task1/task1.cpp"
+-'  48  23  ~/task1/task1.cpp
+|4,39,48,23,1706100603,"~/task1/task1.cpp"
+-'  48  23  ~/task1/task1.cpp
+|4,39,48,23,1706100603,"~/task1/task1.cpp"
+-'  48  23  ~/task1/task1.cpp
+|4,39,48,23,1706100603,"~/task1/task1.cpp"
+-'  5  18  ~/task1/task1.cpp
+|4,39,5,18,1706100444,"~/task1/task1.cpp"
+-'  5  18  ~/task1/task1.cpp
+|4,39,5,18,1706100444,"~/task1/task1.cpp"
+-'  5  18  ~/task1/task1.cpp
+|4,39,5,18,1706100444,"~/task1/task1.cpp"
+-'  5  18  ~/task1/task1.cpp
+|4,39,5,18,1706100444,"~/task1/task1.cpp"
+-'  5  18  ~/task1/task1.cpp
+|4,39,5,18,1706100444,"~/task1/task1.cpp"
+-'  5  18  ~/task1/task1.cpp
+|4,39,5,18,1706100444,"~/task1/task1.cpp"
+-'  5  18  ~/task1/task1.cpp
+|4,39,5,18,1706100444,"~/task1/task1.cpp"
+-'  5  18  ~/task1/task1.cpp
+|4,39,5,18,1706100444,"~/task1/task1.cpp"
+-'  5  18  ~/task1/task1.cpp
+|4,39,5,18,1706100444,"~/task1/task1.cpp"
+-'  5  18  ~/task1/task1.cpp
+|4,39,5,18,1706100444,"~/task1/task1.cpp"
+-'  5  18  ~/task1/task1.cpp
+|4,39,5,18,1706100444,"~/task1/task1.cpp"
+-'  5  18  ~/task1/task1.cpp
+|4,39,5,18,1706100444,"~/task1/task1.cpp"
+-'  5  18  ~/task1/task1.cpp
+|4,39,5,18,1706100444,"~/task1/task1.cpp"
+-'  5  18  ~/task1/task1.cpp
+|4,39,5,18,1706100444,"~/task1/task1.cpp"
+-'  5  18  ~/task1/task1.cpp
+|4,39,5,18,1706100444,"~/task1/task1.cpp"
+-'  5  18  ~/task1/task1.cpp
+|4,39,5,18,1706100444,"~/task1/task1.cpp"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
+-'  3  5  ~/task1/slurm-49315.out
+|4,39,3,5,1706098605,"~/task1/slurm-49315.out"
 -'  3  5  ~/task1/slurm-49315.out
 |4,39,3,5,1706098605,"~/task1/slurm-49315.out"
 -'  1  0  ~/task1/slurm-49315.out
 |4,39,1,0,1706098516,"~/task1/slurm-49315.out"
--'  5  0  ~/task1/slurm-49315.out
-|4,39,5,0,1706098515,"~/task1/slurm-49315.out"
--'  5  18  ~/task1/task1.cpp
-|4,39,5,18,1706098325,"~/task1/task1.cpp"
--'  5  18  ~/task1/task1.cpp
-|4,39,5,18,1706098325,"~/task1/task1.cpp"
--'  4  16  ~/task1/task1.cpp
-|4,39,4,16,1706098305,"~/task1/task1.cpp"
--'  4  16  ~/task1/task1.cpp
-|4,39,4,16,1706098305,"~/task1/task1.cpp"
--'  4  16  ~/task1/task1.cpp
-|4,39,4,16,1706098283,"~/task1/task1.cpp"
--'  4  16  ~/task1/task1.cpp
-|4,39,4,16,1706098283,"~/task1/task1.cpp"
--'  54  3  ~/task1/task1.cpp
-|4,39,54,3,1706098214,"~/task1/task1.cpp"
--'  53  3  ~/task1/task1.cpp
-|4,39,53,3,1706098214,"~/task1/task1.cpp"
--'  54  3  ~/task1/task1.cpp
-|4,39,54,3,1706098214,"~/task1/task1.cpp"
--'  53  3  ~/task1/task1.cpp
-|4,39,53,3,1706098214,"~/task1/task1.cpp"
--'  52  3  ~/task1/task1.cpp
-|4,39,52,3,1706097865,"~/task1/task1.cpp"
--'  51  3  ~/task1/task1.cpp
-|4,39,51,3,1706097865,"~/task1/task1.cpp"
--'  52  3  ~/task1/task1.cpp
-|4,39,52,3,1706097865,"~/task1/task1.cpp"
--'  51  3  ~/task1/task1.cpp
-|4,39,51,3,1706097865,"~/task1/task1.cpp"
--'  1  0  ~/task1/task1.cpp
-|4,39,1,0,1706097354,"~/task1/task1.cpp"
--'  1  0  ~/task1/task1.cpp
-|4,39,1,0,1706097354,"~/task1/task1.cpp"
--'  1  0  ~/task1/task1.cpp
-|4,39,1,0,1706097354,"~/task1/task1.cpp"
--'  1  0  ~/task1/task1.cpp
-|4,39,1,0,1706097354,"~/task1/task1.cpp"
--'  1  0  ~/task1/task1.cpp
-|4,39,1,0,1706097354,"~/task1/task1.cpp"
--'  1  0  ~/task1/task1.cpp
-|4,39,1,0,1706097354,"~/task1/task1.cpp"
--'  7  18  ~/task1/run.sh
-|4,39,7,18,1706097258,"~/task1/run.sh"
--'  7  18  ~/task1/run.sh
-|4,39,7,18,1706097258,"~/task1/run.sh"
--'  7  18  ~/task1/run.sh
-|4,39,7,18,1706097258,"~/task1/run.sh"
--'  7  18  ~/task1/run.sh
-|4,39,7,18,1706097258,"~/task1/run.sh"
--'  7  18  ~/task1/run.sh
-|4,39,7,18,1706097258,"~/task1/run.sh"
--'  7  18  ~/task1/run.sh
-|4,39,7,18,1706097258,"~/task1/run.sh"
--'  7  18  ~/task1/run.sh
-|4,39,7,18,1706097258,"~/task1/run.sh"
--'  7  18  ~/task1/run.sh
-|4,39,7,18,1706097258,"~/task1/run.sh"
--'  7  18  ~/task1/run.sh
-|4,39,7,18,1706097258,"~/task1/run.sh"
--'  7  18  ~/task1/run.sh
-|4,39,7,18,1706097258,"~/task1/run.sh"
--'  7  18  ~/task1/run.sh
-|4,39,7,18,1706097258,"~/task1/run.sh"
--'  7  18  ~/task1/run.sh
-|4,39,7,18,1706097258,"~/task1/run.sh"
--'  7  18  ~/task1/run.sh
-|4,39,7,18,1706097258,"~/task1/run.sh"
--'  7  18  ~/task1/run.sh
-|4,39,7,18,1706097258,"~/task1/run.sh"
--'  7  18  ~/task1/run.sh
-|4,39,7,18,1706097258,"~/task1/run.sh"
--'  7  18  ~/task1/run.sh
-|4,39,7,18,1706097258,"~/task1/run.sh"
--'  1  0  ~/task1/run.sh
-|4,39,1,0,1706097074,"~/task1/run.sh"
--'  1  0  ~/task1/run.sh
-|4,39,1,0,1706097074,"~/task1/run.sh"
--'  1  0  ~/task1/run.sh
-|4,39,1,0,1706097074,"~/task1/run.sh"
--'  1  0  ~/task1/run.sh
-|4,39,1,0,1706097074,"~/task1/run.sh"
--'  1  0  ~/task1/run.sh
-|4,39,1,0,1706097074,"~/task1/run.sh"
--'  1  0  ~/task1/run.sh
-|4,39,1,0,1706097074,"~/task1/run.sh"
--'  1  0  ~/task1/run.sh
-|4,39,1,0,1706097074,"~/task1/run.sh"
--'  1  0  ~/task1/run.sh
-|4,39,1,0,1706097074,"~/task1/run.sh"
--'  1  0  ~/task1/run.sh
-|4,39,1,0,1706097074,"~/task1/run.sh"
--'  1  0  ~/task1/run.sh
-|4,39,1,0,1706097074,"~/task1/run.sh"
--'  1  0  ~/task1/run.sh
-|4,39,1,0,1706097074,"~/task1/run.sh"
--'  1  0  ~/task1/run.sh
-|4,39,1,0,1706097074,"~/task1/run.sh"
--'  1  0  ~/task1/run.sh
-|4,39,1,0,1706097074,"~/task1/run.sh"
--'  1  0  ~/task1/run.sh
-|4,39,1,0,1706097074,"~/task1/run.sh"
--'  1  0  ~/task1/run.sh
-|4,39,1,0,1706097074,"~/task1/run.sh"
--'  1  0  ~/task1/run.sh
-|4,39,1,0,1706097074,"~/task1/run.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  9  ~/task1/job.sh
-|4,39,4,9,1706097056,"~/task1/job.sh"
--'  4  22  ~/task1/compile.sh
-|4,39,4,22,1706097052,"~/task1/compile.sh"
--'  4  22  ~/task1/compile.sh
-|4,39,4,22,1706097052,"~/task1/compile.sh"
--'  4  22  ~/task1/compile.sh
-|4,39,4,22,1706097052,"~/task1/compile.sh"
--'  4  22  ~/task1/compile.sh
-|4,39,4,22,1706097052,"~/task1/compile.sh"
--'  4  22  ~/task1/compile.sh
-|4,39,4,22,1706097052,"~/task1/compile.sh"
--'  4  22  ~/task1/compile.sh
-|4,39,4,22,1706097052,"~/task1/compile.sh"
--'  4  22  ~/task1/compile.sh
-|4,39,4,22,1706097052,"~/task1/compile.sh"
--'  4  22  ~/task1/compile.sh
-|4,39,4,22,1706097052,"~/task1/compile.sh"
--'  4  22  ~/task1/compile.sh
-|4,39,4,22,1706097052,"~/task1/compile.sh"
--'  4  22  ~/task1/compile.sh
-|4,39,4,22,1706097052,"~/task1/compile.sh"
--'  4  22  ~/task1/compile.sh
-|4,39,4,22,1706097052,"~/task1/compile.sh"
--'  4  22  ~/task1/compile.sh
-|4,39,4,22,1706097052,"~/task1/compile.sh"
--'  4  22  ~/task1/compile.sh
-|4,39,4,22,1706097052,"~/task1/compile.sh"
+-'  1  0  ~/task1/slurm-49315.out
+|4,39,1,0,1706098516,"~/task1/slurm-49315.out"
+-'  1  0  ~/task1/slurm-49315.out
+|4,39,1,0,1706098516,"~/task1/slurm-49315.out"
+-'  1  0  ~/task1/slurm-49315.out
+|4,39,1,0,1706098516,"~/task1/slurm-49315.out"
+-'  1  0  ~/task1/slurm-49315.out
+|4,39,1,0,1706098516,"~/task1/slurm-49315.out"
+-'  1  0  ~/task1/slurm-49315.out
+|4,39,1,0,1706098516,"~/task1/slurm-49315.out"
+-'  1  0  ~/task1/slurm-49315.out
+|4,39,1,0,1706098516,"~/task1/slurm-49315.out"
+-'  1  0  ~/task1/slurm-49315.out
+|4,39,1,0,1706098516,"~/task1/slurm-49315.out"
+-'  1  0  ~/task1/slurm-49315.out
+|4,39,1,0,1706098516,"~/task1/slurm-49315.out"
+-'  1  0  ~/task1/slurm-49315.out
+|4,39,1,0,1706098516,"~/task1/slurm-49315.out"
+-'  1  0  ~/task1/slurm-49315.out
+|4,39,1,0,1706098516,"~/task1/slurm-49315.out"
+-'  1  0  ~/task1/slurm-49315.out
+|4,39,1,0,1706098516,"~/task1/slurm-49315.out"
 
 # History of marks within files (newest to oldest):
 
-> ~/task1/slurm-49315.out
-	*	1706098602	0
-	"	3	5
+> ~/task2/task2.cpp
+	*	1706102622	0
+	"	43	57
+	^	43	58
+	.	36	54
+	+	64	1
+	+	31	46
+	+	36	138
+	+	36	189
+	+	41	70
+	+	43	79
+	+	44	32
+	+	48	75
+	+	22	0
+	+	13	25
+	+	30	57
+	+	31	33
+	+	36	60
+	+	35	2
+	+	31	47
+	+	36	54
+
+> ~/task2/run.sh
+	*	1706100841	0
+	"	1	0
+
+> ~/task2/job.sh
+	*	1706100834	0
+	"	1	0
+
+> ~/task2/compile.sh
+	*	1706100826	0
+	"	4	12
+	^	4	13
+	.	4	13
+	+	4	13
 
 > ~/task1/task1.cpp
-	*	1706098324	0
-	"	5	18
-	^	5	19
-	.	5	19
+	*	1706100601	0
+	"	48	23
+	^	48	24
+	.	48	23
 	+	17	0
 	+	1	17
 	+	6	18
@@ -324,6 +357,11 @@
 	+	6	19
 	+	4	18
 	+	5	19
+	+	48	23
+
+> ~/task1/slurm-49315.out
+	*	1706098602	0
+	"	3	5
 
 > ~/task1/run.sh
 	*	1706097257	0

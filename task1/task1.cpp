@@ -45,7 +45,7 @@ int main(int argc, char **argv){
     	}	
     	else{
         	vector<int> v1(n,0);
-        	int s = 51242983;
+        	int s = INT_MAX;
         	MPI_Status Status;
         	MPI_Recv(&v1[0], n, MPI_INT, 0, MPI_ANY_TAG, MPI_COMM_WORLD, &Status); 
         	if((floor(n/(cp-1))+1)*(rank-1) < n){
