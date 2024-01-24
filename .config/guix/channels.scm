@@ -1,1 +1,0 @@
-/etc/guix/channels.scm
